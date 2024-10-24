@@ -1,0 +1,91 @@
+/*Dalal khaled
+444925685*/ 
+
+/*
+1. write your Name, ID no., and Course Code as a comment on the top of your CSS and HTML files
+2. link the CSS file with the HTML file
+3. write the answer to questions that are written as comments in CSS file
+4. Style the HTML elements according to the following instructions,  WRITE ONLY CSS!
+*/
+
+/*1-  Give the <body> element a background of #bdc3c7*/
+
+body {
+  background-color: #bdc3c7;
+}
+
+
+
+/*2-  Change the color of all <h1> and <h2> elements, to "darkgreen". Group the selectors to minimize code.*/
+h1, h2 {
+  color: darkgreen;
+}
+
+
+
+
+/*3- Position the <h1> element 30px from the top, relative to its normal position.*/
+h1 {
+  position: relative;
+  top: 30px;
+}
+
+
+
+
+/*4-  Remove the default underline style for links, but add a underline when you mouse over a link (hover).*/ 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*5- Change the background on every paragraph to be lavenderblush*/
+p {
+  background-color: lavenderblush;
+}
+
+
+
+/*6- Make all inputs have a medium solid pink border*/
+
+input {
+  border: 2px solid pink;
+}
+
+
+/*7- Give everything with the class 'bright' a white background*/
+
+.bright {
+  background-color: white;
+}
+
+
+
+/*8- Give the element with the class 'exact' a 3px dotted green border*/
+
+.exact {
+  border: 3px dotted green;
+}
+
+
+
+/*9- Make all the <p>'s that are nested inside of divs 26px font(font-size: 26px) and Center text align.*/
+
+div p {
+  font-size: 26px;
+  text-align: center;
+}
+
+
+
+/*10- Make the <h1> element's color change to red when hovered over */
+
+h1:hover {
+  color: red;
+}
+
